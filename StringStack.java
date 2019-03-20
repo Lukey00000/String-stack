@@ -8,7 +8,6 @@ public class StringStack {
 	//Constructor for creating a new StringStack with a certain capacity.
 
 	public StringStack(int capacity) {
-		// TODO implement this
 		//sets the value of the public int 'maxNumber' to that of capacity so that the value for 'capacity' can be used in other methods
 		maxNumber = capacity;
 		stackOStrings = new String[capacity];
